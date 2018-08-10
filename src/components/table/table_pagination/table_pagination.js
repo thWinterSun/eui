@@ -48,7 +48,7 @@ export class EuiTablePagination extends Component {
         iconSide="right"
         onClick={this.onButtonClick}
       >
-        {`Rows per page: ${itemsPerPage}`}
+        {`每页行数: ${itemsPerPage}`}
       </EuiButtonEmpty>
     );
 
@@ -58,7 +58,7 @@ export class EuiTablePagination extends Component {
         icon={itemsPerPageOption === itemsPerPage ? 'check' : 'empty'}
         onClick={() => { this.closePopover(); onChangeItemsPerPage(itemsPerPageOption); }}
       >
-        {`${itemsPerPageOption} rows`}
+        {`${itemsPerPageOption} 行`}
       </EuiContextMenuItem>
     ));
 
