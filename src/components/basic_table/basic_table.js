@@ -185,7 +185,7 @@ export class EuiBasicTable extends Component {
   static propTypes = BasicTablePropTypes;
   static defaultProps = {
     responsive: true,
-    noItemsMessage: 'No items found',
+    noItemsMessage: '未找到任何项目',
   };
 
   static getDerivedStateFromProps(nextProps, prevState) {
